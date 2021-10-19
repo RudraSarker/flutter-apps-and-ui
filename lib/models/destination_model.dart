@@ -2,14 +2,14 @@ import 'package:travel_ui/models/activity_model.dart';
 
 class Destination {
   String? imageUrl;
-  String? city;
+  String city;
   String? country;
   String? description;
   List<Activity> activities;
 
   Destination({
     this.imageUrl,
-    this.city,
+    required this.city,
     this.country,
     this.description,
     required this.activities,
